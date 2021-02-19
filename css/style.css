@@ -1,0 +1,239 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    body, html {
+        height: 100%;
+    }
+
+    #header{
+        background-image: url('../img/IMG_7327.jpg');
+        background-size: 80%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+    #header h1{
+        font-size: 100px;
+    }
+    
+        
+    #navbar{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #navbar a{
+        text-decoration: none;
+        background-color: #000000;
+        width: 25%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-bottom: 1.75px dotted #FFFFFF;
+        color: #FFFFFF;
+        float: left;
+    }
+    
+    #navbar a:hover {
+        font-style: oblique;
+    }
+    
+    
+    
+    #container{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    h1{
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 80px;
+        line-height: 500px;
+        text-shadow: 0px 0px 0px #746d36;
+        font-family: ;
+    }
+    
+    h2{
+        width: 500px;
+        border-bottom: 1.75px, #000000;
+        height: 20px;
+        margin-top: 20px;
+        padding-bottom: 100px;
+        color: #000000;
+        text-align: center;
+        font-size: 60px;
+        font-family:;
+    }
+    
+    h3, h4{
+        font-family: 'VT323', monospace;
+        color: #000000;
+    }
+    
+    #logo{
+        margin-bottom: 15px;
+        height: 150px;
+        width: 150px;
+        border-radius: 150%;
+    }
+    
+    div.gallery {
+        border-radius: 50px;
+        border: 15px solid #ccc;
+        height: 250px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    div.gallery:hover {
+        border: 1.75px #000000;
+    }
+    .gallery img{
+        width: 50%;
+    }
+    
+    #ak47, #spas12 {
+        width: 100%;
+        height: auto;
+    }
+    
+    #fnx45, #glock23 {
+        width: 50%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .responsive {
+            width: 100%;
+        }
+    }
+    
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 15px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: #18779c;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #000000;
+    }
+    
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+.footer{
+background:#000;
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
